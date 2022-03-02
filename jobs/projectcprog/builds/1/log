@@ -1,0 +1,26 @@
+Started by user [8mha:////4Nn9ChSQv1jYdBoVxtx+a0npdyULJtiK8RcpnQsCH29sAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL9ksTijPLMPABsY0w+wgAAAA==[0mtashwin s
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/projectcprog
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/tashivaa/cprog.git
+ > git init /var/lib/jenkins/workspace/projectcprog # timeout=10
+Fetching upstream changes from https://github.com/tashivaa/cprog.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/tashivaa/cprog.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/tashivaa/cprog.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 3d73b83375accd61775486fbae2fe69b83a8031d (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3d73b83375accd61775486fbae2fe69b83a8031d # timeout=10
+Commit message: "addfile"
+First time build. Skipping changelog.
+[projectcprog] $ /bin/sh -xe /tmp/jenkins4730304150029712344.sh
++ cd /var/lib jenkins/workspace/projectcproj
+/tmp/jenkins4730304150029712344.sh: line 2: cd: too many arguments
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

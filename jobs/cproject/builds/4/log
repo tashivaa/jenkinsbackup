@@ -1,0 +1,23 @@
+Started by GitHub push by tashivaa
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/cproject
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/cproject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/tashivaa/c-projects.git # timeout=10
+Fetching upstream changes from https://github.com/tashivaa/c-projects.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/tashivaa/c-projects.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 11a2ab5a95b702bbf6a7e6e8bdb5de32c955b7ea (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 11a2ab5a95b702bbf6a7e6e8bdb5de32c955b7ea # timeout=10
+Commit message: "Update file1"
+ > git rev-list --no-walk 10da79113a4f6a0bcf76fe8a938caa16242213b7 # timeout=10
+[cproject] $ /bin/sh -xe /tmp/jenkins20417815837166074.sh
++ cd /var/lib/jenkins/workspace/cproject
++ make
+make: 'execute.exe' is up to date.
+Finished: SUCCESS

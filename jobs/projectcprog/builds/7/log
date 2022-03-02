@@ -1,0 +1,27 @@
+Started by user [8mha:////4Nn9ChSQv1jYdBoVxtx+a0npdyULJtiK8RcpnQsCH29sAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZe/dLi1CL9ksTijPLMPABsY0w+wgAAAA==[0mtashwin s
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/projectcprog
+The recommended git tool is: NONE
+using credential 9376581b-3df8-4c3b-b413-c1ececb2848b
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/projectcprog/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/tashivaa/c-projects.git # timeout=10
+Fetching upstream changes from https://github.com/tashivaa/c-projects.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /var/lib/jenkins/workspace/projectcprog@tmp/jenkins-gitclient-ssh7014364534253108900.key
+ > git fetch --tags --force --progress -- https://github.com/tashivaa/c-projects.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 11a2ab5a95b702bbf6a7e6e8bdb5de32c955b7ea (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 11a2ab5a95b702bbf6a7e6e8bdb5de32c955b7ea # timeout=10
+Commit message: "Update file1"
+ > git rev-list --no-walk 11a2ab5a95b702bbf6a7e6e8bdb5de32c955b7ea # timeout=10
+[projectcprog] $ /bin/sh -xe /tmp/jenkins890465379379598232.sh
++ cd /var/lib/jenkins/workspace/projectprog
+/tmp/jenkins890465379379598232.sh: line 2: cd: /var/lib/jenkins/workspace/projectprog: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
